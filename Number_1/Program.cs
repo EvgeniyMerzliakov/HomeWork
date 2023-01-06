@@ -9,8 +9,14 @@ Console.WriteLine("Введите второе число");
 int y = Convert.ToInt32(Console.ReadLine());
 int max = x;
 
-if (max < y) max = y;
-else max = x;
+if (max < y) 
+{
+    max = y;
+}
+else 
+{
+    max = x;
+}
 
 Console.Write("max = ");
 Console.WriteLine(max);
