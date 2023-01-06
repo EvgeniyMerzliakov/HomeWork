@@ -13,11 +13,23 @@ Console.WriteLine("Введите третье число");
 int z = Convert.ToInt32(Console.ReadLine());
 int max = x;
 
-if (max < y) max = y;
-    else max = x;
+if (max < y) 
+{
+    max = y;
+}
+    else 
+    {
+        max = x;
+    }
 
-if (max < z) max = z;
-    else max = max;
+if (max < z) 
+{
+    max = z;
+}
+    else 
+    {
+        max = max;
+    }
 
 Console.Write("max = ");
 Console.WriteLine(max);
