@@ -6,10 +6,10 @@
 
 Console.WriteLine("Введите целое положительное число");
 int N = Convert.ToInt32(Console.ReadLine());
-int i = 1;
+int i = 2;
 
 while (i <= N)
 {
-    Console.Write(i + " "); // взял это с примера на семинаре, но до конца не понимаю как это работает в скобках!!!
-    i++;
+    Console.Write(i + " ");
+    i+=2;
 }
